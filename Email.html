@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ger">
+  <titel class="titel">Email</titel>
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="Style-SKF.css"/>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width-device-width, initial-scale=1.0"/>
+</head>
+<body>
+    <header class="header-Email">
+        <a href="SaraFotografie.html"><img src="C:\Users\pedro\.vscode\learning projects\Sara-Website\pictures of Sara\Sara-picture.jpg" alt="Sara-picture" class="sara-picture-Email"/></a>
+        <div class="h1-Email">
+            <h1 id="h1" class="h1-Email">Sara Kramer Fotografie</h1>
+        </div>
+    </header>    
+    <div class="hero">
+        <form 
+        action="https://formspree.io/f/xpzedgqn"
+        method="POST">
+            <div class="message-icon">
+                <i class="bi bi-telegram"></i>
+                <span>Nachricht</span>
+            </div>
+            <div id="input-field">
+                <i class="bi bi-person"></i>
+                <input type="text" placeholder="Name" name="Name"/>
+            </div>
+            <div id="input-field">
+                <i class="bi bi-telephone"></i>
+                <input type="text" placeholder="Nummer" name="Phone"/>
+            </div>
+            <div id="input-field">
+                <i class="bi bi-envelope"></i>
+                <input type="text" placeholder="Email Adresse" name="Email"/>
+            </div>
+            <div id="input-field">
+                <i class="bi bi-chat-left-text"></i>
+                <textarea name="Message" placeholder="Nachricht" rows="10"></textarea>
+            </div>
+            <button type="submit" value="Senden" class="send-btn">Senden</button>
+        </form>
+    </div>
+</body>
+</html>
