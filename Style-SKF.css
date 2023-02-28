@@ -774,26 +774,33 @@ input, textarea {
 
 @media screen and (min-width: 877px) {
   .image-container {
-    width: 20%;
-    height: 10%;
-    margin: 0 5%;
-    display: inline-flex;
+    width: 50%;
+    height: 40%;
+    margin: 0 auto;
   }
 
   .overlay {
     width: 100%;
-    margin-top: 0.5rem;
-    margin-left: -100%;
+    margin-top: -50%;
+    margin-left: 0;
   }
 
   .julia {
-    width: 50%;
-    height: 50%;
+    width: 60%;
+    height: 100%;
   }
 
   .overlay-julia {
-    width: 50%;
-    margin-top: 0.5rem;
-    margin-left: -75%;
+    width: 60%;
+    margin-top: -50%;
+    margin-left: 20%;
   }
+	
+.p-Fotos {
+	font-size: 24px;
+}
+
+.h1Ü, .h1-Fotos {
+	font-size: 28px;
+	}
 }
